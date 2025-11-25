@@ -67,7 +67,7 @@ public class LoginController {
 
     private boolean validarCredenciales(String usuario, String password) {
         // Demo credentials: admin / 123456
-        return usuario.equals("quihue") && password.equals("123");
+        return usuario.equals("vlady") && password.equals("123");
     }
 
     private void abrirVentanaPrincipal() {

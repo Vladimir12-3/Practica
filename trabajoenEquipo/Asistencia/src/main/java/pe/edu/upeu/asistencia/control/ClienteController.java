@@ -209,11 +209,9 @@ public class ClienteController {
 
     private boolean validarCampos() {
 
-        if (txtId.getText().trim().isEmpty()) {
-            mostrarMensaje("El id es obligatorio", Alert.AlertType.WARNING);
-            return false;
 
-    }
+
+
         if (txtNombre.getText().trim().isEmpty()) {
             mostrarMensaje("El nombre es obligatorio", Alert.AlertType.WARNING);
             return false;

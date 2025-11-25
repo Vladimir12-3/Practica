@@ -37,7 +37,7 @@
                     </rowConstraints>
 
                     <Label style="-fx-font-weight: bold;" text="ID Cliente:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-                    <TextField fx:id="txtId" prefHeight="36.0" prefWidth="250.0" promptText=" Ingrese el id" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                    <TextField fx:id="txtId" editable="false" prefHeight="36.0" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
                     <Label style="-fx-font-weight: bold;" text="Nombre Completo:" GridPane.columnIndex="2" GridPane.rowIndex="0" />
                     <TextField fx:id="txtNombre" promptText="Ingresa nombre" style="-fx-padding: 10;" GridPane.columnIndex="3" GridPane.rowIndex="0" />
 
